@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest boto3
+          pip install pytest boto3 requests
 
       - name: Run pytest
         run: |
